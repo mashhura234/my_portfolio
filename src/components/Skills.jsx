@@ -3,17 +3,18 @@ import React from 'react';
 const Skills = () => {
   // Data based directly on your hand-drawn layout
   const programmingLanguages = [
-    { name: 'C', level: '80%', icon: '💻' },
-    { name: 'C++', level: '60%', icon: '⚙️' },
-    { name: 'JavaScript', level: '30%', icon: '🌐' },
-    { name: 'Python', level: '40%', icon: '🐍' },
+    { name: ' C', level: ' 80%', icon: '💻' },
+    { name: ' C++', level: ' 60%', icon: '⚙️' },
+    { name: ' JavaScript', level: ' 30%', icon: '🌐' },
+    { name: ' Python', level: ' 40%', icon: '🐍' },
   ];
 
   const softwareTools = [
-    { name: 'MS Word', level: '90%', icon: '📝' },
-    { name: 'MS Excel', level: '80%', icon: '📊' },
-    { name: 'MS Powerpoint', level: '70%', icon: '🎭' },
-    { name: 'Google Apps', level: '70%', icon: '☁️' },
+    { name: ' MS Word', level: ' 90%', icon: '📝' },
+    { name: ' MS Excel', level: ' 80%', icon: '📊' },
+    { name: ' MS Powerpoint', level: ' 70%', icon: '🎭' },
+    { name: ' Google Apps', level: ' 70%', icon: '☁️' },
+    { name: ' Canva', level: ' 75%', icon: '🎨' },
   ];
 
   return (

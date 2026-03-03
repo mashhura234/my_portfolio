@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "AI Book Genre Classification",
       details: "An intelligent system designed to categorize books based on textual data using machine learning algorithms.",
-      tech: "Python / Scikit-Learn"
+      tech: "Python, Scikit-learn, NLTK"
     }
   ];
 

@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: "Attendance Tracker",
       details: "A comprehensive management system with Admin, Teacher, and Student panels, featuring automated result sheet exporting.",
-      tech: "OOP C++ / Java System Design"
+      tech: "OOP, Java System Design"
     },
     {
       title: "AI Book Genre Classification",

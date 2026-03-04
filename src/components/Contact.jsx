@@ -6,7 +6,7 @@ const Contact = () => (
       <h2 className="section-title">Get In Touch</h2>
       <div className="card">
         <p>Email: <strong>mashhura88@gmail.com</strong></p>
-        
+        <p>GitHub: <strong>mashhura234</strong></p>
         <p>Location: Sylhet, Bangladesh</p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-/* 1. COLOR PALETTE INTEGRATION */
+/*  COLOR PALETTE INTEGRATION */
 :root {
   --deep-forest: #0F2A1D;
   --moss-green: #375534;
@@ -8,7 +8,7 @@
   --pure-white: #ffffff;
 }
 
-/* 2. GLOBAL RESET */
+/*  GLOBAL RESET */
 * { 
   box-sizing: border-box; 
   margin: 0; 
@@ -24,14 +24,14 @@ body {
   text-align: center;
 }
 
-/* 3. 1-INCH MARGINS & MAIN LAYOUT */
+/*  1-INCH MARGINS & MAIN LAYOUT */
 .main-content {
-  padding: 0 1in; /* Professional 1-inch margin on left/right */
+  padding: 0 1in; 
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/* 4. NAVBAR & RIGHT-ALIGNED LOGO */
+/*  NAVBAR & RIGHT-ALIGNED LOGO */
 .navbar {
   padding: 40px 0;
   width: 100%;
@@ -39,13 +39,13 @@ body {
 
 .nav-container-alt {
   display: flex;
-  justify-content: space-between; /* Pushes links to left, logo to right */
+  justify-content: space-between; 
   align-items: center;
   width: 100%;
 }
 
 .logo-right {
-  /* Using 'Moralana' as requested. Ensure font is imported in index.html */
+ 
   font-family: 'Moralana', cursive, 'Playfair Display', serif; 
   font-style: italic;
   font-size: 2.8rem;
@@ -68,7 +68,7 @@ body {
   font-size: 0.85rem;
   padding: 8px 18px;
   border: 1px solid var(--mint-gray);
-  border-radius: 10px; /* Rounded rectangular boxes for nav */
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.4);
   transition: all 0.3s ease;
 }
@@ -78,7 +78,7 @@ body {
   color: var(--off-white);
 }
 
-/* 5. MODULAR SECTION BOXES & TITLES */
+/* MODULAR SECTION BOXES & TITLES */
 .section-title {
   font-size: 2.2rem;
   margin: 80px 0 30px;
@@ -98,7 +98,7 @@ body {
   box-shadow: 0 8px 20px rgba(15, 42, 29, 0.04);
 }
 
-/* 6. DUAL PROJECT CARDS */
+/*  DUAL PROJECT CARDS */
 .projects-flex-container {
   display: flex;
   gap: 30px;
@@ -110,7 +110,7 @@ body {
 .project-card {
   background: var(--pure-white);
   border: 1px solid var(--mint-gray);
-  border-radius: 24px; /* Rounded rectangular project boxes */
+  border-radius: 24px; 
   padding: 35px;
   flex: 1;
   min-width: 300px;
@@ -120,11 +120,11 @@ body {
 }
 
 .project-card:hover {
-  transform: scale(1.03); /* Hover animation */
+  transform: scale(1.03);
   border-color: var(--sage-green);
 }
 
-/* 7. HERO SECTION */
+/*  HERO SECTION */
 .hero {
   min-height: 80vh;
   display: flex;
@@ -140,7 +140,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* 8. SKILLS SYSTEM */
+/*  SKILLS SYSTEM */
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -172,7 +172,7 @@ body {
   border-radius: 10px;
 }
 
-/* 9. PROFESSIONAL REVEAL ANIMATIONS */
+/*  PROFESSIONAL REVEAL ANIMATIONS */
 .reveal {
   opacity: 0;
   transform: translateY(40px) scale(0.95);
@@ -184,14 +184,14 @@ body {
   transform: translateY(0) scale(1);
 }
 
-/* 10. CLEANUP (Removing Dots) */
+
 ul {
-  list-style: none; /* Removes all bullet points */
+  list-style: none; 
   margin: 0;
   padding: 0;
 }
 
-/* 11. CONTACT ICONS */
+/*  CONTACT ICONS */
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@ ul {
   gap: 12px;
 }
 
-/* 12. MOBILE FIXES */
+/*  MOBILE FIXES */
 @media (max-width: 768px) {
   .main-content { padding: 0 20px; }
   .nav-container-alt { flex-direction: column-reverse; gap: 20px; }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = () => {
-  // Styles for the modular rounded box
+  
   const boxStyle = {
     backgroundColor: '#ffffff',
     border: '1px solid #AEC3B0',
@@ -11,7 +11,7 @@ const Experience = () => {
     margin: '0 auto 40px auto',
     boxShadow: '0 8px 20px rgba(15, 42, 29, 0.04)',
     textAlign: 'center',
-    transition: 'transform 0.3s ease' // Added subtle hover lift
+    transition: 'transform 0.3s ease' 
   };
 
   const listStyle = {
@@ -32,8 +32,7 @@ const Experience = () => {
   };
 
   return (
-    /* id="experience" is essential for your Navbar link to work */
-    /* "reveal" class triggers your professional scroll animation */
+    
     <section id="experience" className="reveal">
       <h2 style={{ 
         fontSize: '2.2rem', 

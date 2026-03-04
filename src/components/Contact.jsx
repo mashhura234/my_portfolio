@@ -13,4 +13,4 @@ const Contact = () => (
   </section>
 );
 
-export default Contact; // Critical for the app to load
+export default Contact; 

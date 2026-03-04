@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Education = () => {
-  // Styles for the main rounded rectangular container
+  
   const boxStyle = {
-    backgroundColor: '#ffffff', // var(--pure-white)
-    border: '1px solid #AEC3B0', // var(--mint-gray)
+    backgroundColor: '#ffffff', //pure-white
+    border: '1px solid #AEC3B0', // mint-gray
     borderRadius: '24px', // Rounded rectangular shape
     padding: '50px 40px',
     maxWidth: '850px',
@@ -21,7 +21,7 @@ const Education = () => {
     top: '70px',
     bottom: '70px',
     width: '2px',
-    backgroundColor: '#375534', // var(--moss-green)
+    backgroundColor: '#375534', //moss-green
   };
 
   const itemStyle = {
@@ -32,7 +32,7 @@ const Education = () => {
 
   const dotStyle = {
     position: 'absolute',
-    left: '-4px', // Centers dot on the line
+    left: '-4px', 
     top: '8px',
     width: '10px',
     height: '10px',

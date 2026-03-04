@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-  // Data based directly on your hand-drawn layout
+  
   const programmingLanguages = [
     { name: ' C', level: ' 80%', icon: '💻' },
     { name: ' C++', level: ' 60%', icon: '⚙️' },
